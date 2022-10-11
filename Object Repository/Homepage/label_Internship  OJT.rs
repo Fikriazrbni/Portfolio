@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Internship  OJT</name>
+   <tag></tag>
+   <elementGuidId>1e1ba46d-64a3-453d-a23b-dc503eca88b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='job-board-kalibrr']/div/kb-job-search/div/div[2]/kb-job-board-job-level-filter/div/div[2]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>cdb8296f-d13c-42d9-8153-9a831fde94f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>Ctrl.updateSearch(level)</value>
+      <webElementGuid>4e3e37ae-2fc0-46e1-a7fb-efa2dbd59fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Internship / OJT</value>
+      <webElementGuid>54f66acd-821e-4166-ab94-a2fb8cf1726e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;job-board-kalibrr&quot;)/div[@class=&quot;container&quot;]/kb-job-search[1]/div[@class=&quot;panel bg-gray jb-search-group&quot;]/div[@class=&quot;jb-filters&quot;]/kb-job-board-job-level-filter[1]/div[@class=&quot;jb-filter-item dropdown open&quot;]/div[@class=&quot;dropdown-menu jb-filter-item-dropdown jb-search-job-level-dropdown&quot;]/div[2]/label[1]</value>
+      <webElementGuid>0632a6a0-6ec2-4f94-8217-aa79d1572c92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='job-board-kalibrr']/div/kb-job-search/div/div[2]/kb-job-board-job-level-filter/div/div[2]/div[2]/label</value>
+      <webElementGuid>b82323a0-ac8e-4642-a87d-b9b996e13e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Job Levels'])[1]/following::label[1]</value>
+      <webElementGuid>da41bb45-5e8d-448a-9f2c-857f06421544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Level'])[1]/following::label[2]</value>
+      <webElementGuid>c02ee7c9-7698-498b-9f82-d377cf788343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry Level / Junior, Apprentice'])[1]/preceding::label[1]</value>
+      <webElementGuid>77bf6e66-82c8-4b8e-b700-fc7673bad957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Associate / Supervisor'])[1]/preceding::label[2]</value>
+      <webElementGuid>dc1a8fa5-5019-4e17-8b07-99cca7d6d060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Internship / OJT']/parent::*</value>
+      <webElementGuid>8b20bc58-c658-453e-acce-eed0978bba58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//kb-job-board-job-level-filter/div/div[2]/div[2]/label</value>
+      <webElementGuid>cf99e0a1-765b-454f-b5ea-0816acc7bbfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Internship / OJT' or . = 'Internship / OJT')]</value>
+      <webElementGuid>d7c34f84-481f-468f-9186-d1a6c5606e27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
