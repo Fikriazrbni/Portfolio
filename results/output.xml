@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.2 on win32)" generated="20221007 18:03:36.411" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot" source="D:\DATA FIKRI\Berkas\Belajar\Automation\vscode\robot">
+<suite id="s1-s1" name="eWallet TCLogin" source="D:\DATA FIKRI\Berkas\Belajar\Automation\vscode\robot\eWallet_TCLogin.robot">
+<test id="s1-s1-t1" name="Buka wallet" line="15">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221007 18:03:36.982" level="INFO">Opening browser 'chrome' to base url 'https://10.243.133.213:1191/sign-in'.</msg>
+<status status="PASS" starttime="20221007 18:03:36.982" endtime="20221007 18:03:38.718"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221007 18:03:38.726" endtime="20221007 18:03:38.859"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${bypass1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221007 18:03:38.859" level="INFO">Clicking element 'id=details-button'.</msg>
+<status status="PASS" starttime="20221007 18:03:38.859" endtime="20221007 18:03:38.931"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${bypass2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221007 18:03:38.931" level="INFO">Clicking element 'id=proceed-link'.</msg>
+<status status="PASS" starttime="20221007 18:03:38.931" endtime="20221007 18:03:39.015"/>
+</kw>
+<status status="PASS" starttime="20221007 18:03:36.974" endtime="20221007 18:03:39.015"/>
+</test>
+<test id="s1-s1-t2" name="Login" line="20">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${FieldUserName}</arg>
+<arg>fikri</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221007 18:03:39.023" level="INFO">Typing text 'fikri' into text field 'id = mat-input-0'.</msg>
+<status status="PASS" starttime="20221007 18:03:39.023" endtime="20221007 18:03:41.087"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${FieldPassword}</arg>
+<arg>P@ssword1!</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221007 18:03:41.095" level="INFO">Typing text 'P@ssword1!' into text field 'id = mat-input-1'.</msg>
+<status status="PASS" starttime="20221007 18:03:41.095" endtime="20221007 18:03:41.221"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btn_login}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221007 18:03:41.221" level="INFO">Clicking button 'class = mat-button-wrapper'.</msg>
+<msg timestamp="20221007 18:03:41.602" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-7.png"&gt;&lt;img src="selenium-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221007 18:03:41.602" level="FAIL">Button with locator 'class = mat-button-wrapper' not found.</msg>
+<status status="FAIL" starttime="20221007 18:03:41.221" endtime="20221007 18:03:41.611"/>
+</kw>
+<status status="FAIL" starttime="20221007 18:03:39.023" endtime="20221007 18:03:41.611">Button with locator 'class = mat-button-wrapper' not found.</status>
+</test>
+<doc>Simple example using SeleniumLibrary.</doc>
+<status status="FAIL" starttime="20221007 18:03:36.467" endtime="20221007 18:03:41.619"/>
+</suite>
+<status status="FAIL" starttime="20221007 18:03:36.419" endtime="20221007 18:03:41.627"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1" name="eWallet TCLogin">Robot.eWallet TCLogin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

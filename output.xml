@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.2 on win32)" generated="20220910 18:01:34.967" rpa="false" schemaversion="3">
+<suite id="s1" name="Kalibrr TCLogin" source="d:\DATA FIKRI\Berkas\Belajar\Automation\vscode\robot\Kalibrr_TCLogin.robot">
+<test id="s1-t1" name="Search Jobs" line="28">
+<kw name="Open Kalibr">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220910 18:01:35.162" level="INFO">Opening browser 'chrome' to base url 'https://www.kalibrr.com'.</msg>
+<status status="PASS" starttime="20220910 18:01:35.161" endtime="20220910 18:01:40.349"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220910 18:01:40.349" endtime="20220910 18:01:40.466"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Masuk3}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220910 18:01:40.467" level="INFO">Clicking element 'id=menu-item-21'.</msg>
+<status status="PASS" starttime="20220910 18:01:40.467" endtime="20220910 18:01:42.169"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${userName}</arg>
+<arg>Alcatraziot@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220910 18:01:42.170" level="INFO">Typing text 'Alcatraziot@gmail.com' into text field 'id=login-email'.</msg>
+<status status="PASS" starttime="20220910 18:01:42.169" endtime="20220910 18:01:42.262"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${password}</arg>
+<arg>Automation123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220910 18:01:42.263" level="INFO">Typing password into text field 'id=login-password'.</msg>
+<msg timestamp="20220910 18:01:42.348" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220910 18:01:42.424" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220910 18:01:42.263" endtime="20220910 18:01:42.424"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Masuk2}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220910 18:01:42.425" level="INFO">Clicking element 'xpath=/html/body/kb-root/kb-login-page/kb-public-view/div/div/div/form/div[2]/div/button[1]/div'.</msg>
+<status status="PASS" starttime="20220910 18:01:42.424" endtime="20220910 18:01:42.512"/>
+</kw>
+<status status="PASS" starttime="20220910 18:01:35.161" endtime="20220910 18:01:42.512"/>
+</kw>
+<kw name="Set Element Text" library="XML">
+<arg>${InputJob}</arg>
+<arg>Automation</arg>
+<doc>Sets text and/or tail text of the specified element.</doc>
+<msg timestamp="20220910 18:01:42.514" level="FAIL">FileNotFoundError: [Errno 2] No such file or directory: 'xpath=//*[@id="job-board-kalibrr"]/div/kb-job-search/div/div[1]/div[1]/input'</msg>
+<status status="FAIL" starttime="20220910 18:01:42.513" endtime="20220910 18:01:42.515"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${BtnSearchJob}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220910 18:01:42.516" endtime="20220910 18:01:42.516"/>
+</kw>
+<status status="FAIL" starttime="20220910 18:01:35.160" endtime="20220910 18:01:42.517">FileNotFoundError: [Errno 2] No such file or directory: 'xpath=//*[@id="job-board-kalibrr"]/div/kb-job-search/div/div[1]/div[1]/input'</status>
+</test>
+<doc>Simple example using SeleniumLibrary.</doc>
+<status status="FAIL" starttime="20220910 18:01:34.971" endtime="20220910 18:01:42.518"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Kalibrr TCLogin">Kalibrr TCLogin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
